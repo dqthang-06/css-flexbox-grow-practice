@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành CSS Flexbox: flex-grow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Thực Hành Thuộc Tính CSS Flexbox: flex-grow</h1>
+
+    <div class="example-box">
+        <h2>Ví dụ: Áp dụng flex-grow trên Flex Item thứ 2</h2>
+        <p>Container chứa 5 items. Item 2 có <code>flex-grow: 3</code> (hoặc lớn hơn 0) nên sẽ phát triển để chiếm phần không gian còn trống, trong khi các item khác giữ kích thước ban đầu (<code>flex-grow: 0</code> mặc định).</p>
+        
+        <div class="container">
+            <div class="item">Item 1</div>
+            <div class="item item-grow">Item 2 (flex-grow: 3)</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+        </div>
+    </div>
+
+</body>
+</html>
