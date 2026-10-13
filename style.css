@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+.example-box {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.example-box h2 {
+    font-size: 18px;
+    color: #0284c7;
+    margin-bottom: 6px;
+}
+
+.example-box p {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+/* Flex Container */
+.container {
+    display: flex;
+    background-color: #f1f5f9;
+    border: 2px dashed #94a3b8;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+/* Các Flex Item mặc định */
+.item {
+    background-color: #93c5fd;
+    color: #1e3a8a;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    /* Mặc định flex-grow: 0; */
+}
+
+/* Flex Item thứ 2 được mở rộng chiếm phần không gian trống */
+.item-grow {
+    flex-grow: 3;
+    background-color: #f97316;
+    color: #ffffff;
+}
